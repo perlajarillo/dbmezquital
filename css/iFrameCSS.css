@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.mi-iframe {
+  width: 100px;
+  height: 50px;
+}
+
+/* CSS pantallas de 320px o superior */
+@media (min-width: 320px) {
+
+  .mi-iframe {
+    width: 200px;
+    height: 150px;
+  } 
+
+}
+
+/* CSS pantalla 768px o superior */
+@media (min-width: 768px) {
+
+  .mi-iframe {
+    width: 1000px;
+    height: 1300px;
+  } 
+
+}
+
